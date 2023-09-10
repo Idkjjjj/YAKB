@@ -13,7 +13,7 @@
 # Some Placeholders: [!] [*] [✓] [✗]
 
 # Default defconfig to use for builds.
-export CONFIG=dragonheart_defconfig
+export CONFIG=vili_defconfig
 
 # Default directory where kernel is located in.
 KDIR=$(pwd)
@@ -23,20 +23,20 @@ export KDIR
 export LINKER="ld.lld"
 
 # Device name.
-export DEVICE="OnePlus 7 Series"
+export DEVICE="Ximi 11T Pro"
 
 # Date of build.
 DATE=$(date +"%Y-%m-%d")
 export DATE
 
 # Device codename.
-export CODENAME="op7"
+export CODENAME="vili"
 
 # Builder name.
-export BUILDER="cyberknight777"
+export BUILDER="chad"
 
 # Kernel repository URL.
-export REPO_URL="https://github.com/cyberknight777/dragonheart_kernel_oneplus_sm8150"
+export REPO_URL="https://github.com/Idkjjjj/kernel_xiaomi_sm8350b.git"
 
 # Commit hash of HEAD.
 COMMIT_HASH=$(git rev-parse --short HEAD)
